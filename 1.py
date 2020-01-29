@@ -8,5 +8,5 @@ def roll_hundred_pair():
         dice1 = random.randint(1,6)
         dice2 = random.randint(1,6)
         total += [(dice1+dice2)]
-    plt.hist(total)
+    plt.pie(total)
     plt.show()
